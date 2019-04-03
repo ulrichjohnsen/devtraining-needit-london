@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Steps to approve and fulfill NeedIt requests.</description>
+        <internal_name>needit_fulfillment</internal_name>
+        <label_cache>[{"name":"b762206f-4dae-48de-bb03-5184d85145d4.Table","label":"3.3.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table","type":"table_name","base_type":"table_name"},{"name":"b762206f-4dae-48de-bb03-5184d85145d4.Record","label":"3.3.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record","type":"reference","base_type":"reference"},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"d1ffcede-108d-4eb0-80b8-bbcabe39e7d3.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"53a03d0b-63b8-446f-8274-ca20d9bca126.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"53a03d0b-63b8-446f-8274-ca20d9bca126.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"7f7d0c53-87e1-486f-bc27-2e5125849d7a.record","label":"3.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"7f7d0c53-87e1-486f-bc27-2e5125849d7a.table_name","label":"3.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.u_request_type","label":"Trigger➛NeedIt Record➛Request type","reference":"","reference_display":"Request type","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_request_type"},{"name":"1bbe76c1-eb50-46b0-af1a-5abcc26419ff.Record","label":"3.2.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record","type":"reference","base_type":"reference"},{"name":"1bbe76c1-eb50-46b0-af1a-5abcc26419ff.Table","label":"3.2.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.u_when_needed","label":"Trigger➛NeedIt Record➛When needed","reference":"","reference_display":"When needed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit","column_name":"u_when_needed"},{"name":"d2154b5e-0232-4a54-84dd-7e15ac884b5d.Record","label":"3.4.1➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"d2154b5e-0232-4a54-84dd-7e15ac884b5d.Table","label":"3.4.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"93fa3f0f-180e-4e93-bdb1-2e269a774dc6.record","label":"3.4.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"93fa3f0f-180e-4e93-bdb1-2e269a774dc6.table_name","label":"3.4.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"7c59efa4-addb-496c-bc3e-65f956bbde9b.Record","label":"3.4.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record","type":"reference","base_type":"reference"},{"name":"7c59efa4-addb-496c-bc3e-65f956bbde9b.Table","label":"3.4.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table","type":"table_name","base_type":"table_name"},{"name":"91d47e46-c042-4f2c-834c-7b148d16bd15.Record","label":"3.4.2➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"91d47e46-c042-4f2c-834c-7b148d16bd15.Table","label":"3.4.2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"38d81ba6-f1b4-4319-b927-ed3e82e80b74.record","label":"4.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"38d81ba6-f1b4-4319-b927-ed3e82e80b74.table_name","label":"4.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot>c3873635db243300a8a7ab7dca96198b</latest_snapshot>
+        <master_snapshot>c3873635db243300a8a7ab7dca96198b</master_snapshot>
+        <name>NeedIt Fulfillment</name>
+        <outputs/>
+        <remote_trigger_id>d7873635db243300a8a7ab7dca9619cb</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-02 10:58:46</sys_created_on>
+        <sys_id>7af436b1db243300a8a7ab7dca96195b</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>NeedIt Fulfillment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_7af436b1db243300a8a7ab7dca96195b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-02 12:58:00</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7af436b1db243300a8a7ab7dca96195b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7af436b1db243300a8a7ab7dca96195b"/>
+</record_update>
